@@ -1,0 +1,36 @@
+
+.placesList {
+  max-width: 1500px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  padding: 50px 0 50px;
+}
+
+.placesList h2 {
+  font-weight: 300;
+}
+
+.placesList__list {
+  display: flex;
+}
+
+.placesList__list-item {
+  margin-left: 50px;
+}
+
+.placesList__list-item p {
+  text-align: center;
+  font-weight: 300;
+  font-size: 20px;
+  padding: 10px;
+}
+
+.placesList__item-image {
+  width: 320px;
+  height: 450px;
+  background-position: center;
+  background-size: cover;
+  border-bottom: 10px solid #FFC800;
+}
